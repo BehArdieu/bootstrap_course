@@ -1,0 +1,48 @@
+
+
+@font-face {
+    font-family: LiberationSansBold;
+    src: url(./fonts/LiberationSans-Bold-webfont.ttf);
+}
+
+@font-face {
+    font-family: LiberationSansRegular;
+    src: url(./fonts/LiberationSans-Regular-webfont.ttf);
+}
+
+* {
+    font-family: LiberationSansRegular;
+}
+
+
+
+.hello-to-user {
+    display: flex;
+    justify-content: end;
+    font-family: LiberationSansBold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sit-amet {
+    color: #ea9f05;
+}
+
+body {
+    background-image: url(./img/background.jpg);
+}
+
+#top_image {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+#content_container {
+}
+
+.content {
+    background-image: url(./img/background.jpg);
+}
