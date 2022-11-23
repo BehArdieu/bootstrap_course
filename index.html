@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>SPORT</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="">
+<body>
 
     <header>
         <div class="row my-3">
@@ -21,7 +22,16 @@
                 <img src="./img/logo.png" alt="" srcset="">
             </div>
             <div class="col-md-4 hello-to-user">
-                Bonjour Beh ALOTIN
+                Beh ALOTIN
+                <!-- <div class="menu_deroulant">
+                    
+                    <button class="text_button"></button>
+                    <div class="contenu_menu">
+                      <a href="#">Accueil</a>
+                      <a href="#">A propos</a>
+                      <a href="#">Contact</a>
+                    </div>
+                  </div> -->
             </div>
             <div class="col-md-2"></div>
 
@@ -40,37 +50,136 @@
         </div>
     </header>
 
-    <div id="content_container">
-        <div class="content container my-3">
-            <div id="top_image">
-                <img src="./img/header-page-catalogue.png" alt="Boxe" srcset="">
-            </div>
-            <div id="articles">
-                <div class="row align-self-center">
-                    <div class="articles-element col-md-6 my-3">
-                        <img src="./img/gant-boxe-2.png" alt="Gants 2" srcset="">
-                        <span class="row">
-                            <span>GANTS DE BOXE KLIMAX V3</span>
-                        </span>
-                    </div>
-                    <div class="articles-element col-md-6 my-3">
-                        <img src="./img/gant-boxe-1.png" alt="Gants 1" srcset="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="articles-element col-md-6 my-3">
-                        <img src="./img/gant-boxe-2.png" alt="Gants 2" srcset="">
-                    </div>
-                    <div class="articles-element col-md-6 my-3">
-                        <img src="./img/gant-boxe-1.png" alt="Gants 1" srcset="">
-                    </div>
-                </div>
-
-
-            </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 p-0 pt-2">
+            <img class="w-100" src="./img/header-page-catalogue.png" alt="" srcset="">
         </div>
+        <div class="col-md-2"></div>
     </div>
 
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 pb-4 articles">
+            <!-- Line 1 -->
+            <div class="row justify-content-center">
+                <div class="col-md-5 p-4">
+                    <div class="d-flex image_percent">
+                        <div>
+                            <img class="w-100" src="./img/gant-boxe-2.png" alt="" srcset="">
+                            <span class="description">GANTS DE BOXE COMBAT KLIMAX V3</span>
+                        </div>
+                        <span class=" percent">- 45%</span>
+                    </div>
+
+                    <div class="action_buttons">
+                        <button class="btn btn-dark bouton_voir_vente">Voir la vente</button>
+                        <span class="price-splited">120 €</span>
+                        <span class="price-normal">65 €</span>
+                    </div>
+                </div>
+
+                <div class="col-md-5 p-4">
+                    <div class="d-flex image_percent">
+                        <div>
+                            <img class="w-100" src="./img/gant-boxe-1.png" alt="" srcset="">
+                            <span class="description">GANTS DE BOXE COMBAT KLIMAX V3</span>
+                        </div>
+                        <span class=" percent">- 45%</span>
+                    </div>
+
+                    <div class="action_buttons">
+                        <button class="btn btn-dark bouton_voir_vente">Voir la vente</button>
+                        <span class="price-splited">120 €</span>
+                        <span class="price-normal">65 €</span>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Line 1 -->
+
+
+            <!-- Line 2 -->
+            <div class="row justify-content-center">
+                <div class="col-md-5 p-4">
+                    <div class="d-flex image_percent">
+                        <div>
+                            <img class="w-100" src="./img/gant-boxe-2.png" alt="" srcset="">
+                            <span class="description">GANTS DE BOXE COMBAT KLIMAX V3</span>
+                        </div>
+                        <span class=" percent">- 45%</span>
+                    </div>
+
+                    <div class="action_buttons">
+                        <button class="btn btn-dark bouton_voir_vente">Voir la vente</button>
+                        <span class="price-splited">120 €</span>
+                        <span class="price-normal">65 €</span>
+                    </div>
+                </div>
+
+                <div class="col-md-5 p-4">
+                    <div class="d-flex image_percent">
+                        <div>
+                            <img class="w-100" src="./img/gant-boxe-1.png" alt="" srcset="">
+                            <span class="description">GANTS DE BOXE COMBAT KLIMAX V3</span>
+                        </div>
+                        <span class=" percent">- 45%</span>
+                    </div>
+
+                    <div class="action_buttons">
+                        <button class="btn btn-dark bouton_voir_vente">Voir la vente</button>
+                        <span class="price-splited">120 €</span>
+                        <span class="price-normal">65 €</span>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End Line 2 -->
+
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+    <footer>
+        <div class="row w-75 m-auto p-5 pb-2 footer_row">
+            <div class="col-md-3 footer-element">
+                <img src="./img/icon-livre.png" alt="" srcset="">
+                <p class="mt-2">sed ut perspiacitis unde omnis iste natus error sit voluptatem accusantium doloremque audentium, totam rem aperiam</p>
+            </div>
+
+            <div class="col-md-3 footer-element">
+                <img src="./img/icon-camion.png" alt="" srcset="">
+                <p class="mt-2">sed ut perspiacitis unde omnis iste natus error sit voluptatem accusantium doloremque audentium, totam rem aperiam</p>
+            </div>
+
+            <div class="col-md-3 footer-element">
+                <img src="./img/icon-cadenat.png" alt="" srcset="">
+                <p class="mt-2">sed ut perspiacitis unde omnis iste natus error sit voluptatem accusantium doloremque audentium, totam rem aperiam</p>
+            </div>
+
+            <div class="col-md-3 footer-element">
+                <img src="./img/icon-pouce.png" alt="" srcset="">
+                <p class="mt-2">sed ut perspiacitis unde omnis iste natus error sit voluptatem accusantium doloremque audentium, totam rem aperiam</p>
+            </div>
+
+            <ul class="float_list p-2">
+                <li>Qui sommes nous</li>
+                <li>Contact</li>
+                <li>Assistance </li>
+                <li>CGV</li>
+            </ul>
+        </div>
+        <hr class="w-75 m-auto border border-gray border-2 opacity-50" style="top:1px">
+
+
+        <div class="footer_icons py-3">
+            <img class="mx-3" src="./img/icon-facebook.png" alt="" srcset="">
+            <img class="mx-3" src="./img/icon-twitter.png" alt="" srcset="">
+            <img class="mx-3" src="./img/icon-linkedin.png" alt="" srcset="">
+        </div>
+        <p class="w-25 m-auto">2022 sport privilege. Tous droits réservés.</p>
+
+    </footer>
 
 </body>
 <!-- JavaScript Bundle with Popper -->
